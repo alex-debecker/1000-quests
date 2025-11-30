@@ -56,11 +56,10 @@ export default function QuestShow({ quest }: Props) {
                         {quest.subtitle}
                     </h2>
 
-                    <div className="prose prose-lg max-w-none dark:prose-invert">
-                        <div className="whitespace-pre-line text-lg leading-relaxed">
-                            {quest.content}
-                        </div>
-                    </div>
+                    <div
+                        className="prose prose-lg max-w-none dark:prose-invert [&>p]:mb-4 [&>p:last-child]:mb-0"
+                        dangerouslySetInnerHTML={{ __html: quest.content }}
+                    />
                 </main>
             </div>
         </>
