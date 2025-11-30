@@ -33,12 +33,9 @@ export default function Home() {
                 </nav>
 
                 <main className="mx-auto max-w-4xl px-6 py-12">
-                    <h1 className="mb-4 text-4xl font-bold">
-                        Welcome to 1000 Quests
+                    <h1 className="mb-4 text-center text-4xl font-bold">
+                        You're not depressed. You need a quest.
                     </h1>
-                    <h2 className="mb-6 text-2xl font-semibold text-[#706f6c] dark:text-[#A1A09A]">
-                        A journey of a thousand quests begins with a single step
-                    </h2>
                     <div className="prose prose-lg dark:prose-invert">
                         <p className="mb-4 text-lg leading-relaxed">
                             This is my personal quest log where I document all
